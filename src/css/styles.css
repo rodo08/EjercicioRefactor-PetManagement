@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-primary: #424242;
+  --color-secondary: #ffb300;
+  --color-tertiary: #f9ffde;
+  --color-accent: #670d0f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+  background-repeat: no-repeat;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  line-height: inherit;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

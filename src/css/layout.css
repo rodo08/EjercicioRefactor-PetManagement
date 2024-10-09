@@ -1,0 +1,215 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 1.5rem 0;
+  margin: 0 0 3rem 0;
+  gap: 0.5rem;
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+  border: 1px solid var(--color-tertiary);
+  background-color: var(--color-tertiary);
+}
+
+.header__github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header a {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--color-black);
+  opacity: 70%;
+}
+
+.header__github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.header__github:hover {
+  color: var(--color-secondary);
+  fill: var(--color-secondary);
+}
+
+.header__github div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 3rem;
+  color: var(--color-black);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: start;
+}
+
+.pet-form-section,
+.pet-list,
+.pet-comparator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.pet-form-section__title,
+.pet-list__title,
+.pet-comparator__title {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: var(--color-black);
+}
+
+.pet-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.6rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  gap: 1rem;
+  background-color: var(--color-black);
+}
+
+.pet-form__group {
+  display: grid;
+  width: 100%;
+  gap: 1rem;
+}
+
+.pet-form__group label {
+  font-weight: lighter;
+  font-size: 1.2rem;
+  color: var(--color-white);
+}
+
+.pet-form__group input {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  color: var(--color-primary);
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+  background-color: var(--color-tertiary);
+}
+
+.pet-form__select,
+.pet-comparator__select {
+  padding: 0.5rem;
+  margin: 0 0 1.5rem 0;
+  border-radius: 0.5rem;
+  color: var(--color-tertiary);
+  background-color: var(--color-primary);
+}
+
+.pet-comparator__select {
+  margin: 0;
+}
+
+.pet-form__select option {
+  text-align: center;
+  color: var(--color-);
+}
+
+.pet-form__button,
+.pet-comparator__button {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+  width: 100%;
+  color: var(--color-black);
+  padding: 1rem;
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+  background-color: var(--color-secondary);
+  transition: all 0.3s ease-in-out;
+}
+
+.pet-form__button:hover,
+.pet-comparator__button:hover {
+  cursor: pointer;
+  filter: invert(100%);
+}
+
+.pet-list__items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.8rem;
+  gap: 1.8rem;
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.pet-list__items li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+  border: 1px solid var(--color-accent);
+  background-color: var(--color-tertiary);
+}
+
+.pet-list__items li h3 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--color-black);
+}
+
+.pet-list__items li p {
+  font-style: italic;
+  font-weight: light;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+.pet-comparator__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.8rem;
+  gap: 1rem;
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+  background-color: var(--color-black);
+}
+
+.pet-comparator__container h2 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--color-white);
+}
+
+.pet-comparator__select {
+  width: 100%;
+}
+
+.pet-comparator__response {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-accent);
+}
