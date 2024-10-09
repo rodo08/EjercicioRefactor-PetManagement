@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 0 1.5rem 0;
+  padding: 1.5rem;
   margin: 0 0 3rem 0;
   gap: 0.5rem;
   border-radius: 0.5rem 0 0.5rem 0.5rem;
@@ -60,6 +60,12 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: start;
+}
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
 }
 
 .pet-form-section,
